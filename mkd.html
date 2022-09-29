@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+			integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+			crossorigin="anonymous"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="shortcut icon" href="/img/MKD_avatar.png" />
+		<title>Главная страница</title>
+		<style>
+			@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+			.social a {
+				text-align: center;
+				width: 48px;
+				height: 48px;
+				float: left;
+				background: #fff;
+				border: 1px solid #ccc;
+				box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15), inset 0 0 50px rgba(0, 0, 0, 0.1);
+				border-radius: 24px;
+				margin: 0 10px 10px 0;
+				padding: 6px;
+				color: #000;
+			}
+			body {
+				background: rgb(174, 237, 238);
+				background: radial-gradient(circle, rgba(174, 237, 238, 1) 0%, rgba(74, 141, 197, 1) 100%);
+				font-family: "Montserrat", sans-serif;
+			}
+			.vk a:hover {
+				background: #5d84ae;
+				color: #fff;
+			}
+			.odnoklassniki a:hover {
+				background: #f93;
+				color: #fff;
+			}
+
+			.telegram a:hover {
+				background: #249bd7;
+				color: #fff;
+			}
+
+			.nav-theme {
+				background-color: #4a8dc5;
+			}
+			.col-card {
+				background-color: #92c5ef;
+				opacity: 0.9;
+				box-shadow: 0 0 8px 8px #496f8d;
+				border: 1px solid #7aafdb;
+				border-radius: 0.25rem;
+			}
+			.news_text {
+				padding: 0.5rem;
+				border: 1px solid #7aafdb;
+				border-radius: 0.25rem;
+				margin: auto 185px auto;
+				background-color: #92c5ef;
+				opacity: 0.75;
+				box-shadow: 0 0 8px 8px #496f8d;
+			}
+			.logo_s {
+				width: 30rem;
+			}
+			form {
+				transform: translateY(0px);
+				filter: drop-shadow(1px 2px 4px hsl(0deg, 0%, 0%, 0.2));
+			}
+			form:focus-within {
+				transform: translateY(-4px);
+				filter: drop-shadow(1px 2px 4px hsl(0deg, 20%, 0%, 0.45));
+			}
+		</style>
+	</head>
+	<body>
+		<!-- Navbar start -->
+		<header>
+			<nav class="navbar navbar-expand-lg navbar-dark nav-theme">
+				<a class="navbar-brand" href="#"
+					><img src="/img/MKD_logo.png" class="img-fluid logo_s" alt="..."
+				/></a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-toggle="collapse"
+					data-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Переключатель навигации"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="/about.html"
+								>О нас <span class="sr-only">(текущая)</span></a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/works.html">Работы</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/howWork.html">Сервис</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/guarantees.html">Гарантии</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Отзывы</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<!-- Navbar end -->
+		<!-- News_block start -->
+
+		<div class="card">
+			<div class="card-img">
+				<p class="card-text text-center col-card text-white">
+					Реализуем любой Ваш замысел - Предоставьте эскизы, фото, проект или просто опишите своими
+					словами, что хотите получить. Изготовим удобную корпусную мебель по Вашему уникальному
+					проекту.
+				</p>
+			</div>
+			<img src="/img/MKD_caps_vk_ok.png" class="card-img-bottom" alt="..." />
+		</div>
+
+		<!-- News_block end -->
+		<!-- Carousel start -->
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="/img/kich1.jpg" class="d-block w-100" alt="..." />
+				</div>
+				<div class="carousel-item">
+					<img src="/img/kich2.jpg" class="d-block w-100" alt="..." />
+				</div>
+				<div class="carousel-item">
+					<img src="/img/kich4.jpg" class="d-block w-100" alt="..." />
+				</div>
+			</div>
+			<a
+				class="carousel-control-prev"
+				href="#carouselExampleIndicators"
+				role="button"
+				data-slide="prev"
+			>
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Предыдущий</span>
+			</a>
+			<a
+				class="carousel-control-next"
+				href="#carouselExampleIndicators"
+				role="button"
+				data-slide="next"
+			>
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Следующий</span>
+			</a>
+		</div>
+		<!-- Carousel end -->
+		<!-- Contact start -->
+
+		<div class="container my-2">
+			<h2 class="text-center text-white">Связаться с нами</h2>
+			<div class="row">
+				<div class="col-md-5 text-white text-center">
+					<h3>Наши контакты</h3>
+					<h4>Адрес:</h4>
+					<p>Ростов-на-Дону, улица Орская 27Б</p>
+					<h4>Телефон:</h4>
+					<a href="tel:+7 (918) 545-06-09">+7 (918) 545-06-09 - Сергей</a>
+					<p>
+						<a href="tel:+7 (961) 277-50-27">+7 (961) 277-50-27 - Алексей</a>
+					</p>
+					<h4>E-mail:</h4>
+					<a href="mailto:review@mebelcomfortdon.ru">review@mebelcomfortdon.ru</a>
+					<h4>График работы:</h4>
+					<p>Понедельник - суббота: с 9-00 до 17-00</p>
+				</div>
+				<div class="col-md-7">
+					<form action="sendMKD.php">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Имя" name="user-name" required />
+						</div>
+						<div class="form-group">
+							<input
+								type="text"
+								class="form-control"
+								placeholder="Номер или E-mail"
+								name="user-namber"
+								required
+							/>
+						</div>
+						<div class="form-group">
+							<textarea
+								type="text"
+								rows="2"
+								class="form-control"
+								placeholder="Сообщение или отзыв"
+								name="user-text"
+								required
+							></textarea>
+						</div>
+						<div class="form-group">
+							<input type="submit" class="form-control btn btn-primary" />
+						</div>
+					</form>
+					<div class="row">
+						<div class="col-4 d-flex justify-content-around">
+							<div class="social vk">
+								<a href="https://vk.com/mebel_comfort_don" target="_blank"
+									><i class="fa fa-vk fa-2x"></i
+								></a>
+							</div>
+						</div>
+						<div class="col-4 d-flex justify-content-around">
+							<div class="social odnoklassniki">
+								<a href="https://ok.ru/group/70000000079919" target="_blank"
+									><i class="fa fa-odnoklassniki fa-2x"></i
+								></a>
+							</div>
+						</div>
+						<div class="col-4 d-flex justify-content-around">
+							<div class="social telegram">
+								<a href="https://t.me/mebel_comfort_don" target="_blank"
+									><i class="fa fa-paper-plane fa-2x"></i
+								></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Contact end -->
+		<!-- Map start -->
+		<div class="container my-3">
+			<h3 class="text-center text-white">Схема проезда</h3>
+			<script
+				type="text/javascript"
+				charset="utf-8"
+				async
+				src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A669451c4b48dd8c37a5d2fb976a7062b24723c6134a72991692212e87178efb3&amp;width=100%25&amp;height=450&amp;lang=ru_RU&amp;scroll=true"
+			></script>
+		</div>
+		<!-- Map end -->
+		<!-- Footer start -->
+		<footer>
+			<div class="container py-5">
+				<h5 class="text-center text-white">© 2022 Кухни от студии Мебель Комфорт Дон</h5>
+			</div>
+		</footer>
+		<!-- Footer end -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
