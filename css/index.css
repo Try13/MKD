@@ -1,0 +1,25 @@
+@import "main.css";
+.news_text {
+	padding: 0.5rem;
+	border: 1px solid #7aafdb;
+	border-radius: 0.25rem;
+	margin: auto 185px auto;
+	background-color: #92c5ef;
+	opacity: 0.75;
+	box-shadow: 0 0 8px 8px #496f8d;
+}
+.cl {
+	background-color: #7aafdb;
+	opacity: 0.75;
+	box-shadow: 0 0 8px 8px #3895dc;
+	border: 1px solid #15a3ce;
+	border-radius: 0.25rem;
+}
+form {
+	transform: translateY(0px);
+	filter: drop-shadow(1px 2px 4px hsl(0deg, 0%, 0%, 0.2));
+}
+form:focus-within {
+	transform: translateY(-4px);
+	filter: drop-shadow(1px 2px 4px hsl(0deg, 20%, 0%, 0.45));
+}
